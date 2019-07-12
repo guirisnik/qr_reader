@@ -15,10 +15,6 @@ div {
         vertical-align: middle;
     }
     
-    .qrcode-text {
-        padding-right: 1.7em;
-        margin-right: 0;
-    }
     
     .qrcode-text-btn {
         display: inline-block;
