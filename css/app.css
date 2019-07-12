@@ -2,6 +2,10 @@
     display: none;
 }
 
+div {
+    padding-top: 1.0em;
+}
+
 @media only screen and (max-device-width: 750px) {
     body, input {
         font-size: 14pt;
