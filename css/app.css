@@ -15,7 +15,9 @@ div {
         vertical-align: middle;
     }
     
-    
+    .qrcode-text {
+        padding-right: 1.0em;
+    }
     .qrcode-text-btn {
         display: inline-block;
         background: url(../qr_icon.svg) 50% 50% no-repeat;
