@@ -1,36 +1,31 @@
-.qrcode-text-btn {
-    display: none;
-}
-
 div {
     padding-top: 1.0em;
 }
 
-@media only screen and (max-device-width: 750px) {
-    body, input {
-        font-size: 14pt;
-    }
-    
-    input, label {
-        vertical-align: middle;
-    }
-    
-    .qrcode-text {
-        padding-right: 1.0em;
-    }
-    .qrcode-text-btn {
-        display: inline-block;
-        background: url(../qr_icon.svg) 50% 50% no-repeat;
-        height: 1em;
-        width: 1.7em;
-        cursor: pointer;
-    }
-    
-    .qrcode-text-btn > input[type=file] {
-        position: absolute;
-        overflow: hidden;
-        width: 1px;
-        height: 1px;
-        opacity: 0;
-    }
+body, input {
+    font-size: 14pt;
+}
+
+input, label {
+    vertical-align: middle;
+}
+
+.qrcode-text {
+    padding-right: 1.0em;
+}
+
+.qrcode-text-btn {
+    display: inline-block;
+    background: url(../qr_icon.svg) 50% 50% no-repeat;
+    height: 1em;
+    width: 1.7em;
+    cursor: pointer;
+}
+
+.qrcode-text-btn > input[type=file] {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
 }
