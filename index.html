@@ -13,11 +13,14 @@
 </head>
 <body>
     <h4>QR Code Reader</h4>
-
-    <input type="text" size=16 placeholder="Código" class=qrcode-text>
-    <label class=qrcode-text-btn>
-        <input type=file accept="image/*" capture=environment onchange="openQRCamera(this);" tabindex=-1>
-    </label>
-    <input type=button value="Me aperte!" disabled>
+    <div>
+        <input type="text" size=16 placeholder="Código" class=qrcode-text>
+        <label class=qrcode-text-btn>
+            <input type=file accept="image/*" capture=environment onchange="openQRCamera(this);" tabindex=-1>
+        </label>
+    </div>
+    <div>
+        <input type=button value="Me aperte!" disabled>
+    </div>
 </body>
 </html>
